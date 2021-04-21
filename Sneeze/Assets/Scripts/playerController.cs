@@ -17,7 +17,7 @@ public class playerController : MonoBehaviour
     #endregion
 
     #region jumping
-    
+
     [SerializeField] private float jumpForce;
     [SerializeField] private float doubleJumpforce;
     [SerializeField] private Transform groundCheck;
@@ -34,11 +34,6 @@ public class playerController : MonoBehaviour
 
     #region wallJumping
 
-    [SerializeField] private Transform frontCheck;
-    [SerializeField] private float frontCheckRadius;
-    private bool isTouchingFront;
-    private bool isWallSliding;
-    [SerializeField] private float wallSlidingSpeed;
     [SerializeField] private float xWallJumpForce;
     [SerializeField] private float yWallJumpForce;
     private bool isWallJumping;
@@ -47,6 +42,21 @@ public class playerController : MonoBehaviour
     private float tempInput;
 
     #endregion
+
+    #region wallSliding
+
+    [SerializeField] private Transform frontCheck;
+    [SerializeField] private float frontCheckRadius;
+    private bool isTouchingFront;
+    private bool isWallSliding;
+    [SerializeField] private float wallSlidingSpeed;
+
+    #endregion
+
+
+
+
+
 
     void Start()
     {
@@ -71,8 +81,8 @@ public class playerController : MonoBehaviour
         if (!isWallJumping)
         {
             body.velocity = new Vector2(moveInput * speed, body.velocity.y);
-        }    
-        
+        }
+
         //isGrounded check
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundMask);
 
@@ -84,7 +94,7 @@ public class playerController : MonoBehaviour
     public void Move(InputAction.CallbackContext context)
     {
         moveInput = context.ReadValue<Vector2>().x;
-        
+
         if ((moveInput > 0 && !isFacingRight) || (moveInput < 0 && isFacingRight))
         {
             Flip();
@@ -95,9 +105,10 @@ public class playerController : MonoBehaviour
     {
         if (context.started && isWallSliding)
         {
+
             wallJumpingPressed = true;
         }
-        
+
         if (context.canceled)
         {
             wallJumpingPressed = false;
@@ -105,7 +116,7 @@ public class playerController : MonoBehaviour
     }
 
     public void Jump(InputAction.CallbackContext context)
-    { 
+    {
         if (context.performed && isGrounded && !isWallSliding)
         {
             isJumping = true;
@@ -144,7 +155,7 @@ public class playerController : MonoBehaviour
 
     private void WallSlidingPerform()
     {
-        if (isTouchingFront && moveInput != 0 && !isGrounded)
+        if (isTouchingFront && moveInput != 0 && !isGrounded && !isJumping)
         {
             isWallSliding = true;
             canDoubleJump = false;
@@ -171,7 +182,7 @@ public class playerController : MonoBehaviour
 
         if (isWallJumping)
         {
-            body.velocity = new Vector2(xWallJumpForce * -moveInput, yWallJumpForce);
+            body.velocity = new Vector2(xWallJumpForce * -tempInput, yWallJumpForce);
         }
     }
 
@@ -180,7 +191,7 @@ public class playerController : MonoBehaviour
         canDoubleJump = true;
         isWallJumping = false;
     }
-        
+
     private void Flip()
     {
         if (isFacingRight)
