@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637544636181937481
-    m_Hash: 3649162254
+      ticks: 637546256140111318
+    m_Hash: 1983707385
   m_LockFileStatus:
     m_FilePath: D:/Github/Sneeze/Sneeze/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637544636182556158
-    m_Hash: 2574129123
+      ticks: 637546256140111318
+    m_Hash: 350292741
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -706,6 +706,7 @@ m_PackageAssets:
         - 3.0.3
         - 3.0.4
         - 3.0.5
+        - 3.0.6
         compatible:
         - 1.0.2
         - 1.0.6
@@ -730,6 +731,7 @@ m_PackageAssets:
         - 3.0.3
         - 3.0.4
         - 3.0.5
+        - 3.0.6
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -1187,6 +1189,7 @@ m_PackageAssets:
         - 1.5.3
         - 1.5.4
         - 1.5.5
+        - 1.5.6
         - 2.0.0
         - 2.0.1-preview.1
         - 2.0.1

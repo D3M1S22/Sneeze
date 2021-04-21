@@ -419,7 +419,6 @@ GameObject:
   - component: {fileID: 1221765782}
   - component: {fileID: 1221765783}
   - component: {fileID: 1221765784}
-  - component: {fileID: 1221765785}
   - component: {fileID: 1221765781}
   m_Layer: 0
   m_Name: Player
@@ -487,7 +486,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1221765778}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.702, y: -2.351, z: -6.804041}
+  m_LocalPosition: {x: -12.13, y: 8.76, z: -6.804041}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1745848029}
@@ -555,20 +554,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 12
-  jumpForce: 10
-  doubleJumpforce: 15
   groundCheck: {fileID: 1745848029}
-  groundCheckRadius: 0.1
+  groundRadius: 0.2
   groundMask:
     serializedVersion: 2
     m_Bits: 64
-  jumpTime: 0.35
-  frontCheck: {fileID: 833806574}
-  frontCheckRadius: 0.1
-  wallSlidingSpeed: 3
-  xWallJumpForce: 15
-  yWallJumpForce: 9
-  wallJumpTime: 0.4
+  jumpForce: 24
+  fallMultiplier: 12
+  lowJumpMultiplier: 10
+  limitFallSpeed: -15
 --- !u!114 &1221765784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -619,46 +613,6 @@ MonoBehaviour:
     m_ActionId: f4616c23-a666-4cb8-8054-c5d592ce000d
     m_ActionName: Player/Fire[/XInputControllerWindows/rightTrigger,/Mouse/leftButton]
   - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: c0d37649-b72e-4a0b-b21c-4737af56641d
-    m_ActionName: UI/Navigate[/XInputControllerWindows/leftStick/up,/XInputControllerWindows/rightStick/up,/XInputControllerWindows/leftStick/down,/XInputControllerWindows/rightStick/down,/XInputControllerWindows/leftStick/left,/XInputControllerWindows/rightStick/left,/XInputControllerWindows/leftStick/right,/XInputControllerWindows/rightStick/right,/XInputControllerWindows/dpad,/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 5c11f708-59bb-417a-8b42-fef91a8332c2
-    m_ActionName: UI/Submit[/Keyboard/enter,/XInputControllerWindows/buttonSouth]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: d9810ad5-e660-4458-8efd-23a615e15a8c
-    m_ActionName: UI/Cancel[/Keyboard/escape,/XInputControllerWindows/buttonEast]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: eaea2282-cd0a-440b-9d27-ffbccedcf1fd
-    m_ActionName: UI/Point[/Mouse/position]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 2420e4a7-bd9e-44dc-bae1-30e2e62af708
-    m_ActionName: UI/Click[/Mouse/leftButton]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 0259202d-8f33-4441-bbba-4dd34aa9004c
-    m_ActionName: UI/ScrollWheel[/Mouse/scroll]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 7a74be53-ea6c-49ba-9392-48546726a019
-    m_ActionName: UI/MiddleClick[/Mouse/middleButton]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 52ed152e-db5a-4a8f-9cac-247d53db4435
-    m_ActionName: UI/RightClick[/Mouse/rightButton]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: d2b0941e-6513-4328-81a5-1e720ff8f47f
-    m_ActionName: UI/TrackedDevicePosition
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: a33cc8bf-2adc-489d-b8ae-1aa349c3ace3
-    m_ActionName: UI/TrackedDeviceOrientation
-  - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1221765783}
         m_TargetAssemblyTypeName: 
@@ -695,25 +649,6 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!95 &1221765785
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1221765778}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9f101382e13c6964197a9eda7944ef89, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1542296692
 GameObject:
   m_ObjectHideFlags: 0

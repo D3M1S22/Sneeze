@@ -51,18 +51,14 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 95
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 1504}
     - Class: 114
-      Script: {instanceID: 3808}
+      Script: {instanceID: 3810}
     - Class: 114
-      Script: {instanceID: 4162}
-    - Class: 114
-      Script: {instanceID: 16988}
+      Script: {instanceID: 4164}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -468,7 +464,7 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
-      Hash: 17ab167504e4580031f20d67de06af5a
+      Hash: 249d35b1fc7c066280cbdc9af9fcd177
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: playerController
@@ -769,4 +765,4 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/Unity/Projects/Sneeze/Build/Sneeze.exe
+  playerPath: D:/Github/Sneeze/Sneeze/Build/Sneeze.exe

@@ -7,191 +7,124 @@ using UnityEngine.InputSystem;
 public class playerController : MonoBehaviour
 {
     private Rigidbody2D body;
+    private playerActionControl playerActionControl;
 
     #region moving
-
     private float moveInput;
     private bool isFacingRight = true;
     [SerializeField] float speed;
 
     #endregion
 
-    #region jumping
+    #region Checking
 
-    [SerializeField] private float jumpForce;
-    [SerializeField] private float doubleJumpforce;
     [SerializeField] private Transform groundCheck;
-    [SerializeField] private float groundCheckRadius;
+    [SerializeField] private float groundRadius;
     [SerializeField] private LayerMask groundMask;
     private bool isGrounded;
+
+    #endregion
+
+    #region jumping
+    [SerializeField] private float jumpForce;
+    [SerializeField] private float fallMultiplier;
+    [SerializeField] private float lowJumpMultiplier;
+    [SerializeField] private float limitFallSpeed;
     private bool isJumping;
-    private bool canDoubleJump;
-    [SerializeField] private float jumpTime;
     private float jumpTimeCounter;
-    private bool jumpButtonPressed;
-
-    #endregion
-
-    #region wallJumping
-
-    [SerializeField] private float xWallJumpForce;
-    [SerializeField] private float yWallJumpForce;
-    private bool isWallJumping;
-    private bool wallJumpingPressed;
-    [SerializeField] private float wallJumpTime;
-    private float tempInput;
-
-    #endregion
-
-    #region wallSliding
-
-    [SerializeField] private Transform frontCheck;
-    [SerializeField] private float frontCheckRadius;
-    private bool isTouchingFront;
-    private bool isWallSliding;
-    [SerializeField] private float wallSlidingSpeed;
+    private float jumpTime = 0.15f;
 
     #endregion
 
 
+    void Awake()
+    {
+        playerActionControl = new playerActionControl();
+    }
 
+    private void OnEnable()
+    {
+        playerActionControl.Enable();
+    }
 
-
+    private void OnDisable()
+    {
+        playerActionControl.Disable();
+    }
 
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
+
+        playerActionControl.Player.Move.started += _ => StartMove();
+        playerActionControl.Player.Move.performed += _ => PerformMove();
+        playerActionControl.Player.Move.canceled += _ => EndMove();
+
+        playerActionControl.Player.Jump.started += _ => StartJump();
+        playerActionControl.Player.Jump.canceled += _ => EndJump();
     }
 
     void Update()
     {
-        //higher jump perform
-        HigherJump();
+        //perform jump
+        PerformJump();
 
-        //WallSliding perform
-        WallSlidingPerform();
-
-        //wall jump perform
-        WallJumpPerform();
+        //control gravity
+        jumpGravityControl();
     }
 
     void FixedUpdate()
     {
         //move
-        if (!isWallJumping)
-        {
-            body.velocity = new Vector2(moveInput * speed, body.velocity.y);
-        }
+        body.velocity = new Vector2(moveInput * speed, body.velocity.y);
 
-        //isGrounded check
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundMask);
-
-        //isTouchingFront check
-        isTouchingFront = Physics2D.OverlapCircle(frontCheck.position, frontCheckRadius, groundMask);
+        //ground check
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, groundMask);
+    }
+    private void StartMove()
+    {
 
     }
-
-    public void Move(InputAction.CallbackContext context)
+    private void PerformMove()
     {
-        moveInput = context.ReadValue<Vector2>().x;
+        moveInput = playerActionControl.Player.Move.ReadValue<float>();
 
         if ((moveInput > 0 && !isFacingRight) || (moveInput < 0 && isFacingRight))
         {
             Flip();
         }
     }
-
-    public void WallJump(InputAction.CallbackContext context)
+    private void EndMove()
     {
-        if (context.started && isWallSliding)
-        {
 
-            wallJumpingPressed = true;
-        }
-
-        if (context.canceled)
-        {
-            wallJumpingPressed = false;
-        }
     }
-
-    public void Jump(InputAction.CallbackContext context)
+    private void StartJump()
     {
-        if (context.performed && isGrounded && !isWallSliding)
+        if (isGrounded)
         {
             isJumping = true;
-            canDoubleJump = true;
-            jumpTimeCounter = jumpTime;
-            body.velocity = new Vector2(body.velocity.x, jumpForce);
-        }
-
-        if (context.performed && !isGrounded && canDoubleJump && !isWallSliding)
-        {
-            canDoubleJump = false;
-            body.velocity = Vector2.up * doubleJumpforce;
-        }
-
-        if (context.canceled)
-        {
-            isJumping = false;
+            body.velocity = Vector2.up * jumpForce;
         }
     }
-
-    private void HigherJump()
+    private void PerformJump()
     {
-        if (isJumping && canDoubleJump)
-        {
-            if (jumpTimeCounter > 0)
-            {
-                body.velocity = Vector2.up * jumpForce;
-                jumpTimeCounter -= Time.deltaTime;
-            }
-            else
-            {
-                isJumping = false;
-            }
-        }
-    }
 
-    private void WallSlidingPerform()
+    }
+    private void EndJump()
     {
-        if (isTouchingFront && moveInput != 0 && !isGrounded && !isJumping)
-        {
-            isWallSliding = true;
-            canDoubleJump = false;
-        }
-        else
-        {
-            isWallSliding = false;
-        }
-
-        if (isWallSliding)
-        {
-            body.velocity = new Vector2(body.velocity.x, Mathf.Clamp(body.velocity.y, -wallSlidingSpeed, float.MaxValue));
-        }
+        isJumping = false;
     }
-
-    private void WallJumpPerform()
+    private void jumpGravityControl()
     {
-        if (isWallSliding && wallJumpingPressed)
+        if (body.velocity.y < 0 && body.velocity.y > limitFallSpeed)
         {
-            wallJumpingPressed = false;
-            isWallJumping = true;
-            Invoke("SetWallJumpingToFalse", wallJumpTime);
+            body.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
         }
-
-        if (isWallJumping)
+        else if (body.velocity.y > 0 && !isJumping)
         {
-            body.velocity = new Vector2(xWallJumpForce * -tempInput, yWallJumpForce);
+            body.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
         }
     }
-
-    private void SetWallJumpingToFalse()
-    {
-        canDoubleJump = true;
-        isWallJumping = false;
-    }
-
     private void Flip()
     {
         if (isFacingRight)

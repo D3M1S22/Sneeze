@@ -11,19 +11,19 @@ D:\Unity\2020.3.4f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/Unity/Projects/Sneeze
+D:/Github/Sneeze/Sneeze
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55677
-Successfully changed project path to: D:/Unity/Projects/Sneeze
-D:/Unity/Projects/Sneeze
+51847
+Successfully changed project path to: D:/Github/Sneeze/Sneeze
+D:/Github/Sneeze/Sneeze
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 35.34 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 37.17 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path D:/Unity/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Unity/Projects/Sneeze/Assets
+[Subsystems] Discovering subsystems at path D:/Github/Sneeze/Sneeze/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,71 +35,1769 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000923 seconds.
+Registered in 0.000940 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 36.89 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 35.07 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.768 seconds
+- Completed reload, in  0.765 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000670 seconds.
+Registered in 0.000637 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001FB7D82E010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981361B80 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7CDC5A40 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982BEA080 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D76E3E0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9826B4020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D0D16A0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981D86030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D84D420 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982A68010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D84D420 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7CDC5A40 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F98207DC20 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9826C7430 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D602070 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981DA3020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982A95A20 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7CF89010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F98134D030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981AC8020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D85B600 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982C77700 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981AC8020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981D86030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981C13840 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7CDC6C70 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9812CF690 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F98134D030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F98141DE50 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 38.29 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 36.39 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.907 seconds
+- Completed reload, in  0.826 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.6 MB.
-System memory in use after: 95.6 MB.
+System memory in use before: 95.8 MB.
+System memory in use after: 95.7 MB.
 
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2549.
-Total: 2.077000 ms (FindLiveObjects: 0.187200 ms CreateObjectMapping: 0.081300 ms MarkObjects: 1.704000 ms  DeleteObjects: 0.103700 ms)
+Total: 1.930300 ms (FindLiveObjects: 0.163000 ms CreateObjectMapping: 0.143900 ms MarkObjects: 1.524200 ms  DeleteObjects: 0.098400 ms)
 
 ========================================================================
 Received Import Request.
+  path: Assets/Scripts/Player.inputactions
+  artifactKey: Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.inputactions using Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c506bbc6a02b2f5b608890780bd1ddd0') in 0.045457 seconds
+  Import took 0.048055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.659024 seconds.
   path: Assets/Scripts/playerController.cs
   artifactKey: Guid(269f1542c5b085845ad8a49fb26b8ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/playerController.cs using Guid(269f1542c5b085845ad8a49fb26b8ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a6c678976e08e8724654c0c0e2d5cf') in 0.034502 seconds
-  Import took 0.051276 seconds .
+Start importing Assets/Scripts/playerController.cs using Guid(269f1542c5b085845ad8a49fb26b8ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7facef154c41743732dd1b5c10b0250') in 0.013007 seconds
+  Import took 0.015709 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000663 seconds.
+Registered in 0.000705 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001F981FCB010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7CED42E0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D09A7B0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981B1C020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982712010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9819CC020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982697F20 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982712010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D1BE0D0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984451020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D789010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9829BAE40 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982BC8010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982BC8010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F98429BC40 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983EA9010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981E07030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984937020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D09A7B0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983F6D010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F98164E020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F98429BC40 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D3A2010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9820EB010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983BAA020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7CDF5540 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9812CF690 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D254820 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983F6D010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.736 seconds
+- Completed reload, in  0.722 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.9 MB.
+System memory in use after: 95.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2553.
+Total: 2.166600 ms (FindLiveObjects: 0.374200 ms CreateObjectMapping: 0.081000 ms MarkObjects: 1.585500 ms  DeleteObjects: 0.120700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.704113 seconds.
+  path: Assets/Scripts/playerController.cs
+  artifactKey: Guid(269f1542c5b085845ad8a49fb26b8ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/playerController.cs using Guid(269f1542c5b085845ad8a49fb26b8ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7ecabd437b0c77eeb0372b1749747c') in 0.003757 seconds
+  Import took 0.006410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023554 seconds.
+  path: Assets/Scripts/playerController.cs
+  artifactKey: Guid(269f1542c5b085845ad8a49fb26b8ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/playerController.cs using Guid(269f1542c5b085845ad8a49fb26b8ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7ecabd437b0c77eeb0372b1749747c') in 0.001538 seconds
+  Import took 0.004531 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000635 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001FB7D82E010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7CED3890 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D09A7B0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984937020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F98290D010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982E19020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982BE4060 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F98290D010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D1BE0D0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9855ED830 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D789010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D6F4E40 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F99471F9C0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983250070 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F98434E2C0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983170010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984381E40 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7CF89010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D09A7B0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983073040 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981839030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F98147D1B0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982CEF420 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982BC8010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9820FE220 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7CE62CC0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983DD8050 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D6F4E40 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9829B1010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.738 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.9 MB.
+System memory in use after: 95.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2557.
+Total: 7.001800 ms (FindLiveObjects: 0.501600 ms CreateObjectMapping: 0.363500 ms MarkObjects: 5.807600 ms  DeleteObjects: 0.326000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000764 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001FB7D82E010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7CED4650 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9847DF570 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D081E70 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F98290D010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9812E9020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981E07030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983587F30 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982073010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984277030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D789010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9814DFCA0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982BE4060 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983250070 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9847722A0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983AD0080 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982E3B010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7CF89010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9847DF570 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983DB8020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F98435E040 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9847F5740 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D6F9D40 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9829B1010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9845AD040 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983E938A0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982BE4060 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981C25860 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9829B1010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.771 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2100 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.7 MB.
-System memory in use after: 95.7 MB.
+System memory in use before: 96.0 MB.
+System memory in use after: 95.9 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2553.
-Total: 1.842400 ms (FindLiveObjects: 0.166300 ms CreateObjectMapping: 0.069100 ms MarkObjects: 1.489200 ms  DeleteObjects: 0.117000 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2561.
+Total: 1.940300 ms (FindLiveObjects: 0.158600 ms CreateObjectMapping: 0.071700 ms MarkObjects: 1.621000 ms  DeleteObjects: 0.087800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 139.623359 seconds.
-  path: Assets/Scripts/playerController.cs
-  artifactKey: Guid(269f1542c5b085845ad8a49fb26b8ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/playerController.cs using Guid(269f1542c5b085845ad8a49fb26b8ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54909533aef1daf56620493baf3b3ba3') in 0.003254 seconds
-  Import took 0.005790 seconds .
+  Time since last request: 321.455276 seconds.
+  path: Assets/Scripts/Player.inputactions
+  artifactKey: Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.inputactions using Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee4c05dcec069a1f180883d16a52165') in 0.018342 seconds
+  Import took 0.021680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.446426 seconds.
+  path: Assets/Scripts/Player.inputactions
+  artifactKey: Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.inputactions using Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5bc4bc16567cbbf8c2e2944b751bad4') in 0.003142 seconds
+  Import took 0.005871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002245 seconds.
+  path: Assets/Scripts/Player.inputactions
+  artifactKey: Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.inputactions using Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5bc4bc16567cbbf8c2e2944b751bad4') in 0.002952 seconds
+  Import took 0.005817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.819652 seconds.
+  path: Assets/Scripts/Player.inputactions
+  artifactKey: Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.inputactions using Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd73ed75efdd78348404f77e6a8cf77') in 0.003573 seconds
+  Import took 0.006418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001744 seconds.
+  path: Assets/Scripts/Player.inputactions
+  artifactKey: Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.inputactions using Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd73ed75efdd78348404f77e6a8cf77') in 0.002847 seconds
+  Import took 0.006001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.719942 seconds.
+  path: Assets/Scripts/Player.inputactions
+  artifactKey: Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.inputactions using Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f64d9344f59ae42a32377f3ecb8f7d') in 0.004040 seconds
+  Import took 0.006884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000983 seconds.
+  path: Assets/Scripts/Player.inputactions
+  artifactKey: Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.inputactions using Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f64d9344f59ae42a32377f3ecb8f7d') in 0.003332 seconds
+  Import took 0.006014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.501339 seconds.
+  path: Assets/Scripts/Player.inputactions
+  artifactKey: Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.inputactions using Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00569415096f15b9dae82e589787521e') in 0.003284 seconds
+  Import took 0.006130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001501 seconds.
+  path: Assets/Scripts/Player.inputactions
+  artifactKey: Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.inputactions using Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00569415096f15b9dae82e589787521e') in 0.002431 seconds
+  Import took 0.005367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.011054 seconds.
+  path: Assets/Scripts/Player.inputactions
+  artifactKey: Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.inputactions using Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c6046ea509ca16b017e6a5cafb8acd') in 0.003058 seconds
+  Import took 0.005929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001483 seconds.
+  path: Assets/Scripts/Player.inputactions
+  artifactKey: Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.inputactions using Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c6046ea509ca16b017e6a5cafb8acd') in 0.003026 seconds
+  Import took 0.006013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.338513 seconds.
+  path: Assets/Scripts/Player.inputactions
+  artifactKey: Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.inputactions using Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8157319281407a1d88bbcf73b45761be') in 0.003939 seconds
+  Import took 0.007133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005557 seconds.
+  path: Assets/Scripts/Player.inputactions
+  artifactKey: Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.inputactions using Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8157319281407a1d88bbcf73b45761be') in 0.002857 seconds
+  Import took 0.005718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.372367 seconds.
+  path: Assets/Scripts/Player.inputactions
+  artifactKey: Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.inputactions using Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4e2e985986fed6f7b731aa6d760756') in 0.004006 seconds
+  Import took 0.007266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004902 seconds.
+  path: Assets/Scripts/Player.inputactions
+  artifactKey: Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.inputactions using Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4e2e985986fed6f7b731aa6d760756') in 0.002970 seconds
+  Import took 0.006919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.472473 seconds.
+  path: Assets/Scripts/Player.inputactions
+  artifactKey: Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.inputactions using Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a8267fd9e70645dacc8cc25b14f3e4') in 0.003503 seconds
+  Import took 0.006580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001470 seconds.
+  path: Assets/Scripts/Player.inputactions
+  artifactKey: Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.inputactions using Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a8267fd9e70645dacc8cc25b14f3e4') in 0.002668 seconds
+  Import took 0.005745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.231642 seconds.
+  path: Assets/Scripts/Player.inputactions
+  artifactKey: Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.inputactions using Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942b7c6c57708dd00eb8b50f5cc6e380') in 0.003472 seconds
+  Import took 0.006185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001966 seconds.
+  path: Assets/Scripts/Player.inputactions
+  artifactKey: Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.inputactions using Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942b7c6c57708dd00eb8b50f5cc6e380') in 0.002531 seconds
+  Import took 0.005462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.181235 seconds.
+  path: Assets/Scripts/Player.inputactions
+  artifactKey: Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.inputactions using Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52038571c2a9b633dc01b43c2136e37c') in 0.003155 seconds
+  Import took 0.005841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002036 seconds.
+  path: Assets/Scripts/Player.inputactions
+  artifactKey: Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.inputactions using Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52038571c2a9b633dc01b43c2136e37c') in 0.002540 seconds
+  Import took 0.005412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.284020 seconds.
+  path: Assets/Scripts/Player.inputactions
+  artifactKey: Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.inputactions using Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420696f95c6669775d9adf4ca489f05f') in 0.002990 seconds
+  Import took 0.005649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003189 seconds.
+  path: Assets/Scripts/Player.inputactions
+  artifactKey: Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.inputactions using Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420696f95c6669775d9adf4ca489f05f') in 0.002606 seconds
+  Import took 0.005541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.901729 seconds.
+  path: Assets/Scripts/Player.inputactions
+  artifactKey: Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.inputactions using Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bcb54dad1142f68e241a1f480b4fb96') in 0.003221 seconds
+  Import took 0.006258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005685 seconds.
+  path: Assets/Scripts/Player.inputactions
+  artifactKey: Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.inputactions using Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bcb54dad1142f68e241a1f480b4fb96') in 0.003027 seconds
+  Import took 0.005819 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000740 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001FB7D82E010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7CED3890 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9815E7040 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981C14040 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982BC8010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9843FB030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F98174CE50 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982BC8010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981F97030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984277030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D789010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984815F60 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F994717B10 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983250070 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9819AF060 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9855412E0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984381E40 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984127010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9815E7040 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9842F0020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982B82A50 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982918A70 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984937020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9844C3010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981C14040 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D4D2C70 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F99471F9C0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981C25860 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9831B2020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.789 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.0 MB.
+System memory in use after: 96.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2565.
+Total: 6.271700 ms (FindLiveObjects: 0.575100 ms CreateObjectMapping: 0.845600 ms MarkObjects: 4.587700 ms  DeleteObjects: 0.260400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.358318 seconds.
+  path: Assets/Scripts/Player.inputactions
+  artifactKey: Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.inputactions using Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b920b469749e7da653e1d2946ea9c623') in 0.016999 seconds
+  Import took 0.020234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.624680 seconds.
+  path: Assets/Scripts/Player.inputactions
+  artifactKey: Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.inputactions using Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52f5eb3d253171e4002b39c1925404e') in 0.003766 seconds
+  Import took 0.007030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027941 seconds.
+  path: Assets/Scripts/Player.inputactions
+  artifactKey: Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.inputactions using Guid(788055132a01b7a4b8c6a2564fcf1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52f5eb3d253171e4002b39c1925404e') in 0.002425 seconds
+  Import took 0.005243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.413670 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(46a36530c01602d47a5ae19f5e18a56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(46a36530c01602d47a5ae19f5e18a56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837b247544391d22417d064421cb09d2') in 0.001392 seconds
+  Import took 0.003997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000669 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(46a36530c01602d47a5ae19f5e18a56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(46a36530c01602d47a5ae19f5e18a56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837b247544391d22417d064421cb09d2') in 0.001461 seconds
+  Import took 0.004043 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000684 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F982CEF420 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7CED42E0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9847DF570 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9845AD040 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983587F30 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D84E030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D2FB020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983587F30 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D1BE0D0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F98474D4D0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D789010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F98429BC40 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9856AB010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983250070 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981EE5DD0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9855412E0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984381E40 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9855412E0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9847DF570 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983568020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983B2AA30 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7CFDC480 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981F3D020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984169020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9845AD040 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9815EEF80 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D67D010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D254010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9831B2020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.722 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.0 MB.
+System memory in use after: 96.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2570.
+Total: 2.041200 ms (FindLiveObjects: 0.295200 ms CreateObjectMapping: 0.108200 ms MarkObjects: 1.543300 ms  DeleteObjects: 0.090200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000647 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F983330020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7CED3890 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9847DF570 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9855E4100 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F98138B030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D709D50 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D2FB020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9830D2050 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D1BE0D0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F98474D4D0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D789010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981C25860 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983250070 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984A97010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981E893F0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9855412E0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984381E40 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985918010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9847DF570 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983B12010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F98174F060 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983DDE070 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D3A2010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982BC8010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9847C5830 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F99470D4A0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983250070 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981C25860 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9829B1010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.757 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.0 MB.
+System memory in use after: 96.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2574.
+Total: 2.113500 ms (FindLiveObjects: 0.202800 ms CreateObjectMapping: 0.144500 ms MarkObjects: 1.667600 ms  DeleteObjects: 0.097500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000675 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001FB7D82E010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7CED49C0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F994726BD0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9845AD040 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9819AF010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D709D50 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D2FB020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981D7F050 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981F97030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984277030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D789010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D254010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9856AB010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984971040 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983E3F410 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985CAF050 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981E07030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985CAF050 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D254010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983568020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D471140 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D120B20 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985894010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982EDAA10 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9847C1FF0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D1A83C0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982697F20 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D254010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9829B1010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.754 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.0 MB.
+System memory in use after: 96.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2578.
+Total: 1.917900 ms (FindLiveObjects: 0.162400 ms CreateObjectMapping: 0.081000 ms MarkObjects: 1.583200 ms  DeleteObjects: 0.089900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000638 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001FB7D82E010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7CED3520 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981C25860 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F98134F040 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9855380D0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984989020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D2FB020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9844C3010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982D13020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984277030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D789010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981C25860 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9856AB010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9858CE030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9830D6E10 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985918010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D67D010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985CAF050 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981C25860 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985500080 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982EE2A20 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984978720 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985CAF050 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9844C3010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9847C03D0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9826A0370 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983250070 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981C25860 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981617010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.694 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 96.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2582.
+Total: 5.009000 ms (FindLiveObjects: 0.468700 ms CreateObjectMapping: 0.275800 ms MarkObjects: 4.084900 ms  DeleteObjects: 0.176900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000664 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F983DFF010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7CED3890 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981C1C050 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9845AD040 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9819AF010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D84E030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D2FB020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981D7F050 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981352B50 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984277030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D789010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981C1C050 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9831C6370 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983E41040 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F98140E420 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985CA7040 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D67D010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984127010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981C1C050 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985561310 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D5A5010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D120B20 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D3A2010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982BC8010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9847BF5C0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9815EE280 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9831C6370 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981C1C050 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981F97030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.735 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 96.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2586.
+Total: 1.969800 ms (FindLiveObjects: 0.190300 ms CreateObjectMapping: 0.096300 ms MarkObjects: 1.591900 ms  DeleteObjects: 0.090600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000704 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001FB7D82E010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7CED4650 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D68CA20 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9947259E0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9859C8E30 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981E73020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D2FB020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9855DB020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D467A10 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984277030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D789010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D68CA20 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F994717B10 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983E41040 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985538120 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985A22010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982BE4060 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985CA7040 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D68CA20 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983568020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D68CA20 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7CFDC480 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985B3F030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984169020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9847C1FF0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D3E0820 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F994717B10 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D68CA20 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9829B1010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.717 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 96.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2590.
+Total: 7.154400 ms (FindLiveObjects: 0.502300 ms CreateObjectMapping: 0.337600 ms MarkObjects: 5.977500 ms  DeleteObjects: 0.334000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000662 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001FB7D82E010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7CED3520 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981C25860 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D473A30 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9859C8E30 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984989020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D2FB020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9855DB020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983584050 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984277030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D789010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981C25860 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9856AB010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D733020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985C9C8F0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D1F5400 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983E41040 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985C3D010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982E3E230 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983568020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7CDF5010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984978720 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D3A2010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982BC8010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9847C5830 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981D878D0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F98174B050 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981C25860 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981F97030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.724 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 96.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2594.
+Total: 1.976000 ms (FindLiveObjects: 0.203700 ms CreateObjectMapping: 0.080400 ms MarkObjects: 1.604800 ms  DeleteObjects: 0.086300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000657 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F9843DB020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7CED4650 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D68CA20 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983439080 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9815E0030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D84E030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D2FB020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982EDAA10 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982D23030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984277030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D789010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D68CA20 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9856AB010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983BA2020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9831B3690 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981220080 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981FE3030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985DAD020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D68CA20 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D237010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9812D36A0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983E48720 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985E56010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982EDAA10 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9847C4A20 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983375600 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F98174B050 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D68CA20 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9829B1010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.699 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 96.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2598.
+Total: 1.869400 ms (FindLiveObjects: 0.156100 ms CreateObjectMapping: 0.074300 ms MarkObjects: 1.515300 ms  DeleteObjects: 0.122900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000699 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F982CBA020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7CED3F70 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D080870 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9947259E0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9819AF010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984706010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D2FB020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982EDAA10 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983D88020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984277030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D789010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981C25860 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9820FB020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984A97010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9813888F0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985C8E880 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984381E40 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985C8E880 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D080870 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9855492F0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D5A5010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985517090 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985A64020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D1BE0D0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9847C11E0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D1A8A40 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9820FB020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981C25860 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D1BE0D0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.717 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 96.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2602.
+Total: 1.749700 ms (FindLiveObjects: 0.167600 ms CreateObjectMapping: 0.076900 ms MarkObjects: 1.385900 ms  DeleteObjects: 0.118700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000651 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F9813E8020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7CED3520 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D68CA20 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D255370 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982EDAA10 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981F6F030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D2FB020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982EDAA10 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983D88020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984277030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D789010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D68CA20 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9820FB020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984403050 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981F97B90 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981220080 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9859DA050 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985C8E880 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D68CA20 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983EEB020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9858D2040 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F98263B060 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D3A2010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D6EB010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9847C5830 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D1E1BA0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9820FB020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D68CA20 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D237010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.703 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 96.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2606.
+Total: 7.112300 ms (FindLiveObjects: 0.684600 ms CreateObjectMapping: 0.360700 ms MarkObjects: 5.748800 ms  DeleteObjects: 0.315200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000835 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F983C40010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7CED4D30 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981C25860 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9819B7220 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9830D2050 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D709D50 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D2FB020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981D7F050 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9818D9030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984277030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D789010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981C25860 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D07BFF0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984A97010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D84EB90 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985BFB020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984381E40 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985C8E880 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981C25860 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984451020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D253360 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7CFDC480 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985A22010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985C83030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9847C3C10 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D6813B0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F99471F9C0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981C25860 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9829B1010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.713 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 96.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2610.
+Total: 6.975800 ms (FindLiveObjects: 0.519700 ms CreateObjectMapping: 0.312100 ms MarkObjects: 5.827400 ms  DeleteObjects: 0.313400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000666 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F9813E8020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7CED4D30 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981F73040 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D6C4CE0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982EDAA10 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9858C6020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D2FB020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982EDAA10 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9818D9030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984277030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D789010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981F73040 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D07BFF0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984A97010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985832070 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985BFB020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985D0F0C0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985C8E880 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981F73040 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984451020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D253360 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9847D1BE0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985C8E880 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982BC8010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9847C1FF0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D1E4580 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F98174B050 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981F73040 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981F97030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.722 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 96.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2614.
+Total: 1.957400 ms (FindLiveObjects: 0.183000 ms CreateObjectMapping: 0.089400 ms MarkObjects: 1.599700 ms  DeleteObjects: 0.084400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000630 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F983C40010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7CED3520 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981F73040 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9845AD040 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9844C3010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981408040 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D2FB020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9844C3010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9818D9030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984277030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D789010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981F73040 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9856AB010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984A97010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D46B550 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985DAD020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9859DA050 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985DAD020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981F73040 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9855492F0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9844CBA20 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982FF3910 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985AED010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D6EB010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9847C5830 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985576CF0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F99471F9C0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981F73040 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9829B1010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.722 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 96.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2618.
+Total: 1.809300 ms (FindLiveObjects: 0.168200 ms CreateObjectMapping: 0.074700 ms MarkObjects: 1.441000 ms  DeleteObjects: 0.124600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000746 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F9830AA020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7CED49C0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981C25860 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985D26ED0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9844C3010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984989020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D2FB020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981562030 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F983D88020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985FC4010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D789010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981C25860 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F99471F9C0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984A97010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9829B5DD0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985DAD020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F984381E40 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985DAD020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981C25860 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985561310 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981FE7050 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F98356ED30 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985DAD020 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F982BC8010 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F9847C2E00 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FB7D79BA60 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F99471F9C0 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F981C25860 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F985B5F050 doesn't match image D:\Github\Sneeze\Sneeze\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.738 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.2 MB.
+System memory in use after: 96.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2622.
+Total: 4.926200 ms (FindLiveObjects: 0.455600 ms CreateObjectMapping: 0.261400 ms MarkObjects: 4.023500 ms  DeleteObjects: 0.183600 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
