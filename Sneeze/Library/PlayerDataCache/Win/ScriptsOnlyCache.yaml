@@ -464,7 +464,7 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
-      Hash: 249d35b1fc7c066280cbdc9af9fcd177
+      Hash: 78395f11672fb87f96df06ed681a8f46
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: playerController
